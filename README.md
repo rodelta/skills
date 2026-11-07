@@ -22,6 +22,7 @@ One skill only: `vpx skills add rodelta/skills --skill garden`.
 
 - **[garden](./skills/garden/SKILL.md)**: Picks and makes the one change that most improves the codebase long term, autonomously, up to a ready PR. With an arg, proposes options in that area first. Needs `code-review`, `pr`.
 - **[brief](./skills/brief/SKILL.md)**: High-level summary of the work and the code decisions behind it for users and agents.
+- **[refine](./skills/refine/SKILL.md)**: Iteratively removes indirection and simplifies, one finding at a time, until nothing is left to take away.
 
 ## Dev
 
