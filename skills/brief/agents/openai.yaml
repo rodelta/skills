@@ -1,0 +1,5 @@
+interface:
+  display_name: "Brief"
+  short_description: "Summarise the work and its code decisions"
+policy:
+  allow_implicit_invocation: false
