@@ -16,7 +16,7 @@ One skill only: `vpx skills add rodelta/skills --skill garden`.
 
 ## User-invoked
 
-- **[reimagine](./skills/reimagine/SKILL.md)**: Rethinks a part of the codebase from first principles, compatibility broken, into a proposal. Needs `codebase-design`, `research`, `grilling`, `domain-modeling`.
+- **[reimagine](./skills/reimagine/SKILL.md)**: Rethinks a part of the codebase from first principles, compatibility broken, into a proposal. Needs `codebase-design`.
 
 ## Model-invoked
 
