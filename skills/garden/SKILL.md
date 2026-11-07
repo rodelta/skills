@@ -28,10 +28,11 @@ Read Keep and decide (no args) or propose (args) an improvement.
 
 # Keep
 
-Maintain a KEEP.md file. It should stay short, efficient and clean, and readable by the devs on the repo.
-Its path is in your memory. When it isn't, ask the user where KEEP.md should live (ideally a place every git worktree shares), and save their answer to memory.
+Maintain a KEEP.md file. It should stay short, efficient and clean, and user-readable.
+Its path is in your memory. If it's not, do a quick search, or ask the user to remember.
 It should orient you when you find new data about the codebase, and help orchestrate action
 while not relying on notes that degrade over time. Timestamp findings and replace often. Pure and structured.
+Keep it updated at every step of work. The clean latest info goes with the code change, this is not a log.
 
 # Steps
 
@@ -43,7 +44,7 @@ while not relying on notes that degrade over time. Timestamp findings and replac
    Understand your decision tree, explore more when needed.
 3. **Pick.**
    Make safe, long-term beneficial decisions. Make changes that are easy to review and trust.
-   Propose the best options, each labelled with its door (one-way or two-way) and blast radius.
+   Propose the best options, with implications, tradeoffs and risk.
    When invoked with args, wait for user feedback and decision.
    When invoked with no arg, decide yourself on the best option that does the job.
 4. **Build.**
@@ -52,11 +53,11 @@ while not relying on notes that degrade over time. Timestamp findings and replac
 5. **Refine.**
    Clean up after yourself. Do a refinement pass to go over the work and iterate on its quality, simplicity, usefulness.
 6. **Review.**
-   Call the Skill tool with "code-review" for a round of review over your code.
+   Use the "code-review" Skill for a round of review.
 7. **PR**
    Call the Skill tool with "pr" to write the PR body.
    Report:
-   - the Merge Danger (door and blast radius) from the PR body.
+   - Merge danger and Blast radius.
    - the change and why it matters long term.
    - scope
 
