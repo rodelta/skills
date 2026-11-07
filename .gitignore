@@ -1,3 +1,4 @@
 upstream/
 .DS_Store
 node_modules/
+.vitest/
