@@ -28,7 +28,8 @@ Read Keep and decide (no args) or propose (args) an improvement.
 
 # Keep
 
-Maintain a local KEEP.md file. it should stay short, efficient and clean.
+Maintain a KEEP.md file. It should stay short, efficient and clean, and readable by the devs on the repo.
+Its path is in your memory. When it isn't, ask the user where KEEP.md should live (ideally a place every git worktree shares), and save their answer to memory.
 It should orient you when you find new data about the codebase, and help orchestrate action
 while not relying on notes that degrade over time. Timestamp findings and replace often. Pure and structured.
 
@@ -42,7 +43,7 @@ while not relying on notes that degrade over time. Timestamp findings and replac
    Understand your decision tree, explore more when needed.
 3. **Pick.**
    Make safe, long-term beneficial decisions. Make changes that are easy to review and trust.
-   Propose the best options.
+   Propose the best options, each labelled with its door (one-way or two-way) and blast radius.
    When invoked with args, wait for user feedback and decision.
    When invoked with no arg, decide yourself on the best option that does the job.
 4. **Build.**
@@ -51,12 +52,13 @@ while not relying on notes that degrade over time. Timestamp findings and replac
 5. **Refine.**
    Clean up after yourself. Do a refinement pass to go over the work and iterate on its quality, simplicity, usefulness.
 6. **Review.**
-   Use /code-review to do a round of review over your code.
+   Call the Skill tool with "code-review" for a round of review over your code.
 7. **PR**
-   report:
+   Call the Skill tool with "pr" to write the PR body.
+   Report:
+   - the Merge Danger (door and blast radius) from the PR body.
    - the change and why it matters long term.
    - scope
-   - PR body from /pr
 
 On user confirmation, push the PR and help the process of review & merging
 Offer recommendations and candidate to fix next, if you have either.
