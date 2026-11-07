@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reimagine"
+  short_description: "Rethink a part of the codebase from first principles"
+policy:
+  allow_implicit_invocation: false
