@@ -18,15 +18,15 @@ It's the clean fundamental representation of the topic and the state of work.
 
 The format is:
 
-**Bottom line up front**
+**<(Bottom line up front, crux of the issue)>**
 
-# Summary
+# <Summary (very high-level, issue and the core pieces to understand)>
 
-# Options and Tradeoffs
+# <Options (smart condensed comparison, recommendation with why)>
 
-# Path forward (and why)
+# <Path (High level view of the optimal known path with why and what is uncertain)>
 
-# References (for agents)
+# <References (Condensed technical info for agents and verification) >
 
 ---
 
@@ -34,3 +34,5 @@ It's short and to the point. No narrative. The core clean information that someo
 It's pure of secondary details. A brief is the base to generate other more detailed artifacts for coordination.
 
 Excluding references, the brief should fit in a single screen.
+
+After you're done writing it, do an explicit additional pass to refine it for better structured ideas and better human reading.
